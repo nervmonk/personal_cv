@@ -4,7 +4,7 @@ import portfolio2 from "../assets/img/portfolio-2.jpg";
 const Portfolio = () => {
   return (
     <section className="py-5 border-bottom wow fadeInUp" data-wow-delay="0.1s">
-      <h1 className="title pb-3 mb-5">Portfolio</h1>
+      <h1 className="title pb-3 mb-5">Freelance Portfolio</h1>
       <div className="row">
         <div className="col-12">
           {/* <div className="row">

@@ -2,12 +2,12 @@ import profilePic from "../assets/img/profile-ryan.jpg";
 
 const MainSide = () => {
   const downloadCV = () => {
-    fetch("CV_Ryan.pdf").then((response) => {
+    fetch("CV_Ryan_Dwiky.pdf").then((response) => {
       response.blob().then((blob) => {
         const fileURL = window.URL.createObjectURL(blob);
         let alink = document.createElement("a");
         alink.href = fileURL;
-        alink.download = "CV_Ryan.pdf";
+        alink.download = "CV_Ryan_Dwiky.pdf";
         alink.click();
       });
     });
@@ -24,12 +24,8 @@ const MainSide = () => {
         <h1 className="text-primary mt-2">Ryan Dwiky</h1>
         <div className="mb-4" style={{ height: "22px" }}>
           <h4 className="typed-text-output d-inline-block text-light">
-            Web Developer
+            Full Stack Web Developer
           </h4>
-          <div className="typed-text d-none">
-            Web Designer, Web Developer, Front End Developer, Apps Designer,
-            Apps Developer
-          </div>
         </div>
         <div className="d-flex justify-content-center mt-auto mb-3">
           <a
@@ -54,7 +50,7 @@ const MainSide = () => {
             Download CV
           </button>
           <a
-            href="https://wa.me/6281227144308"
+            href="https://wa.me/6285715871769"
             target="_blank"
             rel="noreferrer"
             className="btn w-50 btn-scroll"

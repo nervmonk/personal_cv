@@ -21,7 +21,7 @@ const Footer = () => {
           </a>
         </div>
         <p className="m-0">Ryan Dwiky Curriculum Vitae</p>
-        <p className="m-0">Last Updated on December 2022</p>
+        <p className="m-0">Last Updated on July 2023</p>
       </div>
     </section>
   );
