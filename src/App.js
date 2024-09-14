@@ -6,7 +6,7 @@ import Experience from "./components/Experience";
 import Footer from "./components/Footer";
 import MainSide from "./components/MainSide";
 import Portfolio from "./components/Portfolio";
-import Skills from "./components/Skills";
+import TechStack from "./components/TechStack";
 import Training from "./components/Training";
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
           <Experience />
           <Education />
           <Training />
-          <Skills />
+          <TechStack />
           <Portfolio />
           <ContactMe />
           <Footer />

@@ -24,11 +24,25 @@ const AboutMe = () => {
         </div>
         <div className="col-sm-6 py-1">
           <span className="fw-medium text-primary">Phone:</span>{" "}
-          {AboutMeData.phone}
+          <a
+            href={"https://wa.me/6285715871769"}
+            target="_blank"
+            className="text-info"
+            rel="noopener noreferrer"
+          >
+            {AboutMeData.phone}
+          </a>
         </div>
         <div className="col-sm-6 py-1">
           <span className="fw-medium text-primary">Email:</span>{" "}
-          {AboutMeData.email}
+          <a
+            href={`mailto:${AboutMeData.email}`}
+            target="_blank"
+            className="text-info"
+            rel="noopener noreferrer"
+          >
+            {AboutMeData.email}
+          </a>
         </div>
         <div className="col-sm-6 py-1">
           <span className="fw-medium text-primary">Address:</span>{" "}

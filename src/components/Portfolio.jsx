@@ -55,7 +55,7 @@ const Portfolio = () => {
                 <div className="card-img-overlay text-center mt-5">
                   <h5 className="card-title">Azea Studio</h5>
                   <a
-                    href="https://byazea.online/"
+                    href="https://byazea-b28b1.web.app/"
                     target="_blank"
                     rel="noreferrer"
                     className="btn btn-primary"
