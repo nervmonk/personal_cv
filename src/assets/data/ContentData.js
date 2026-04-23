@@ -2,13 +2,21 @@ export const ExperienceData = [
   {
     id: 1,
     title: "Full Stack Developer",
-    company: "PT. Smartec Teknologi Indonesia",
+    company: "PT. Paramita Digital Nusantara - EaseSign",
+    period: "April 2025 - ",
+    description:
+      "As a solo Full-Stack Developer for a web-based digital signature company, I am responsible for the end-to-end development and maintenance of the application. I handle the front-end using React and Next.js, and develop the back-end services utilizing Java with Spring Framework, PostgreSQL, and Redis.",
+  },
+  {
+    id: 2,
+    title: "Full Stack Developer",
+    company: "PT. Smartec Teknologi Indonesia - BantuSaku",
     period: "July 2024 - ",
     description:
       "As a full-stack developer for a peer-to-peer lending company (BantuSaku), I'm maintaining a web and mobile application, backend with Java Spring framework, and SQL databases, to meets the business requirement. I also work with range of tools: Redis, Kafka, Docker containers, Linux Debian server. Currently, I'm the only Indonesian developer on the team",
   },
   {
-    id: 2,
+    id: 3,
     title: "Back End Developer",
     company: "PT. Infosys Solusi Terpadu",
     period: "February 2023 - June 2024",
@@ -16,7 +24,7 @@ export const ExperienceData = [
       "As a back end developer, I was assigned for PT Antam Tbk superapp projects. My tasks in this project mainly related with consumer data management, transactions, and data reporting. The technology used are Java JDK 17 with Spring framework and Postgresql for the database.",
   },
   {
-    id: 3,
+    id: 4,
     title: "Full Stack Developer",
     company: "PT. NEXT Transformtech Indonesia (NEXT TI)",
     period: "January 2022 - January 2023",
@@ -24,7 +32,7 @@ export const ExperienceData = [
       "As a full stack developer, I work for the Loan Origination System (LOS) team in Next TI as a Junior Programmer. My daily responsibilities are creating LOS-related web apps, bug-fixing, and adding or enhancing the existing feature. I work both at the client-side and server-side with tools like jQuery, Java Spring, Gitlab, and Jenkins.",
   },
   {
-    id: 4,
+    id: 5,
     title: "Journalist",
     company: "BeritaSatu TV",
     period: "May 2019 - January 2022",
@@ -32,7 +40,7 @@ export const ExperienceData = [
       "I moved to television media in 2019. Here I do several jobdesk including reporter, video journalist, and news producer. As a news producer, I have a responsibility for Prime Time and Connect360 programme content since October 2020 until January 2022.",
   },
   {
-    id: 5,
+    id: 6,
     title: "Journalist",
     company: "Tempo.co",
     period: "August 2018 - May 2019",
@@ -75,11 +83,11 @@ export const AboutMeData = {
     "Hello, I'm Ryan Dwiky Anggriawan, professional full-stack web developer based in Jakarta, Indonesia. With a strong background in developing and maintaining large-scale digital projects for national clients, including banking institutions, state-owned enterprises, and peer-to-peer lending platforms, I possess a deep understanding of both front-end and back-end systems. My technical expertise spans a range of programming languages and technologies, including HTML, CSS, JavaScript, Java, Spring framework, and SQL databases. Moreover, I'll do my best to be able to quickly learn and work with new technologies, provided they have comprehensive documentation.",
   name: "Ryan Dwiky Anggriawan",
   degree: "Bachelor of Philosophy",
-  phone: "+62 85715871769",
+  phone: "+62 85777373606",
   address:
-    "Jl. Sultan Trenggoro Blok M2 No 17, Bekasi Utara, Kota Bekasi, Jawa Barat",
+    "Jakarta, Indonesia",
   birthday: "13 March 1992",
-  experience: "3+ year",
+  experience: "5+ year",
   email: "devdwikyryan@gmail.com",
   status: "Open to work",
 };
